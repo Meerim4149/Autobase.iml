@@ -14,7 +14,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    Scanner scanner = new Scanner(System.in);
+
 
     public static final GsonBuilder BUILDER = new GsonBuilder();
     public static final Gson GSON =BUILDER.setPrettyPrinting().create();
