@@ -13,11 +13,11 @@ import java.nio.file.StandardOpenOption;
 @Setter
 
 public class Driver {
-    private String id;
+    private int id;
     private String name;
     private static final Path WRITE_PATH = Paths.get("./datadrive.json");
 
-    public Driver(String id, String name) {
+    public Driver(int id, String name) {
         this.id = id;
         this.name = name;
     }
